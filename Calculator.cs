@@ -8,6 +8,8 @@ namespace CalculatorStuff
 {
     public class Calculator
     {
+        //boo
+
         public void UserInputMethod()
         {
             int current_state = 1;
