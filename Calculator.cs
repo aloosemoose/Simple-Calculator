@@ -84,11 +84,16 @@ namespace CalculatorStuff
                             {
                                 current_state = 1;
                             }
+                            else if (response == "no")
+                            {
+                                Console.WriteLine("Okie dokie!");
+                                current_state++;
+                            }
                             else
                             {
-                                Console.WriteLine("Thanks!");
+                                Console.WriteLine("Well that's just silly >:(");
                                 current_state++;
-                            }                          
+                            }
                         }
                         break;
 
